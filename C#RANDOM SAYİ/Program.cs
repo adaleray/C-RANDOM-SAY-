@@ -1,4 +1,4 @@
-﻿using System;
+ ﻿using System;
 
 class Program
 {
@@ -21,7 +21,7 @@ class Program
             {
             
              Random rnd = new Random();
-        int[] sayilar = new int[isayi];
+              int[] sayilar = new int[isayi];
 
         for (int i = 0; i < isayi;)
         {
@@ -32,7 +32,7 @@ class Program
             {
                 if (sayilar[j] == eray)
                 {
-                    benzersiz = false;
+                    benzersiz = false;// benzersiz kontrolu 
                     break;
                 }
             }
